@@ -22,6 +22,10 @@ def addSubscriber():
   print(f"You entered: Name={name}, Address={URI}")
   return jsonify({'message': f'You sent name: {name} and address: {URI}'})
 
+# ADDED BY ME :3
+@app.route('/list-subscribers', methods=['GET'])
+def listSubscribers():
+  return jsonify(subscribers)
 
 @app.route('/update-and-notify', methods=['POST'])
 def updateAndNotifyAllSubscribers():
