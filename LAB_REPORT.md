@@ -1,0 +1,2 @@
+# What I Did
+This lab was very fun for me. I pretty much just added the missing functions to make everything work in the terminal. I used the starter code I was given and built off of it, allowing me to understand and learn how to make these functions. This lab went much better than the last one, and I really worked hard and think I improved. I think I did everything correctly.
